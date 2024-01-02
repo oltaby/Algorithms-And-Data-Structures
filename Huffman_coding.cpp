@@ -82,7 +82,9 @@ void huffman_coding(string text){
 int main() {
     string test1 = "MATEKFELELETEMKETTESLETT";
     string test2 = "EMESE MAI SMSE NEM NAIV MESE";
+    string test3 = "MEDWKNCFOEJRNV";
     huffman_coding(test1);
     huffman_coding(test2);
+    huffman_coding(test3);
     return 0;
 }
